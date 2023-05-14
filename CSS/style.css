@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/images/f.jpg.jpeg);   
+    background-size: cover;
+    background-position: center;
+    
+  
+ }
+header nav{
+    
+
+    background-color: rgb(7, 7, 8) ;
+}
+header nav h1{
+    color: aliceblue;
+    font-family: 'Changa One', cursive;
+    display: inline;
+    padding-left: 30px;
+    font-size: 70px;
+    position:absolute ;
+    margin-top: 10px;
+    border-color: solid 2px wheat;
+    letter-spacing: 2pc;
+    text-shadow: solid 2px white;
+}
+header nav .logo{
+    padding: 10px;
+    margin-top: 20px;
+    padding: 0px;
+    width: 80px;
+    height: 80px; ;
+    border-radius: 90px;
+    opacity: 0.9;
+}
+header nav div {
+    padding-left: 40px;
+    margin-left: 80%;
+    display: inline;
+    margin-top: 40px;
+    position: absolute;
+}
+
+header nav .buscarLibro{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 0px;
+    color: aliceblue;
+    right: 30%;
+    width: 200px;
+
+}
+    
+    
+
+header nav #Name{
+color: #000;
+    position: absolute;
+    width:170px;
+    height: 30px;
+    border-color:none;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-right: 30%;
+}
+ .reg{
+   
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Changa One', cursive;
+    width: 90px ;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(16, 10, 90);
+    border: 2cm indianred;
+   text-align: center;
+   color: antiquewhite;
+  
+}
+.acce{
+  
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Changa One', cursive;
+    width: 70px ;
+    height: 50px;
+    border-radius: 20%;
+    background-color: rgb(16, 10, 90);
+   border: none;
+   text-align: center;
+   color: antiquewhite;
+
+
+}
+header nav .botonesInicio{
+    display: inline;
+
+    }
+header nav .botonesInicio .reg:hover{
+    font-size: 10px;
+}   
+header nav .botonesInicio .acce:hover{
+    font-size: 10px;
+}
+
+
+
+   /*  COMIENZA MAIN */
+
+main p{
+   
+    font-family: 'Changa One', cursive;
+    font-size: 20px;
+    margin-top: 70px;
+    color: aliceblue;
+    text-align: center;
+    opacity: 0.9;
+}
+.textRef{
+    font-size: 30px;
+  text-align: left;
+  margin-left: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(172, 172, 192);
+  
+}
+
+main .imageRef{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    padding-top: 0px;
+    margin: 0;
+
+}
+
+main .dropdown{
+        margin-left: 90%;
+         font-family: 'changa one', cursive;
+        display: inline;
+        color: rgb(181, 126, 55);
+        font-size: 20px;
+
+}
+
+main #generos{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+main .dropdown .opcionesGeneros a{
+    margin-left: 90%;
+    display: block;
+    color: antiquewhite;
+}
+main .dropdown .opcionesGeneros a:hover{
+    text-shadow: solid 2px white;
+    color: blue;
+    border: solid 2px wheat;
+    font-size:16px ;
+    text-align: center;
+}
+.buttonLibro{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Changa One', cursive;
+    border-radius: 5px;
+    background-color: rgb(225, 208, 208);
+    color: rgb(16, 17, 17);
+
+}
+.buttonLibro:hover{
+    background-color: blanchedalmond;
+
+}
+
+/* COMIENZA FOOTER */
+
+footer .fotter{
+    padding: 0%;
+    margin-top: 20%;
+    height: 40px;
+    background-color: #000
+
+
+    }
+footer .fotter .logoFotter{
+    position: absolute;
+    border-top: 60%;
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+}
+footer .fotter p{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 40%;
+}
+
+                  /* COMIENZA propiedades generales de las Paginas externas del index  */
+ header nav .volver {
+   margin-left: 80%;
+   position: absolute;
+   margin-top: 20px;
+   border-radius: 20%;
+   background-color: rgb(16, 10, 90);
+   border: 2cm indianred;
+   text-align: centerfont-size: 15px;
+   font-weight: bold;
+   font-family: 'Changa One', cursive;
+   width: 90px ;
+   height: 50px;;
+   color: antiquewhite;}
+
+ header nav .volver a{
+    text-decoration: none;
+    color: antiquewhite;
+    width: 90px ;
+    height: 50px;;
+                }
+
+ header nav .volver a:hover{
+  font-size: 15px;
+  color: bisque;
+  text-shadow: 2px rgb(253, 107, 3);
+                }
+       
+/* main del area anime                */
+main .TodosAnimes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+main .TodosAnimes .anime1{
+    width: 200px;
+    height: 200px;
+}
+main .TodosAnimes .anime2{
+    width: 200px;
+    height: 200px;
+}
+main .TodosAnimes .anime3{
+    width: 200px;
+    height: 200px;
+}
+main .TodosAnimes .anime4{
+    width: 200px;
+    height: 200px;
+}
+
+/* main del area drama */
+
+main .TodosDramas{
+    display: flex;  
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+main .TodosDramas .drama1{
+    width: 200px;
+    height: 200px;
+}
+main .TodosDramas .drama2{
+    width: 200px;
+    height: 200px;
+}
+main .TodosDramas .drama3{
+    width: 200px;
+    height: 200px;
+}
+main .TodosDramas .drama4{
+    width: 200px;
+    height: 200px;
+}
+
+/* main  del  area infantil*/
+
+main .TodosInfantil{
+    display: flex;  
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+main .TodosInfantil .infantil1{
+    width: 200px;
+    height: 200px;
+}
+main .TodosInfantil .infantil2{
+    width: 200px;
+    height: 200px;
+}
+main .TodosInfantil .infantil3{
+    width: 200px;
+    height: 200px;
+}
+main .TodosInfantil .infantil4{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+    @media (max-width:800px){
+       #Name{
+        display: none;
+       }
+       h1{
+        display: none;
+       }
+
+       .TodosAnimes{
+        display: flex;
+        flex-direction: column-reverse;
+       }
+       .generos{
+        display: none;
+       }
+    
+    }
+
+ @media (max-width:300px){
+    .container_text-center{
+        display: grid;
+        grid-template-columns: repeat(3,80px);
+    }
+
+ }
+
