@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    max-width: 100%;
+    max-width: 1290;
 }
 body{
     margin: 0;
@@ -9,7 +9,7 @@ body{
     background: url(/images/f.jpg.jpeg);   
     background-size: cover;
     background-position: center;
-    
+
   
  }
 header nav{
@@ -66,7 +66,7 @@ color: #000;
     height: 30px;
     border-color:none;
     border-radius: 10%;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-right: 30%;
 }
  .reg{
@@ -181,6 +181,22 @@ main .dropdown .opcionesGeneros a:hover{
     background-color: blanchedalmond;
 
 }
+
+.row{
+    display: grid;
+    min-width: 1200px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 130px);
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    row-gap: 240px;
+    column-gap: 10px;
+}
+
+
+    
 
 /* COMIENZA FOOTER */
 
@@ -308,30 +324,22 @@ main .TodosInfantil .infantil4{
 }
 
 
-
-    @media (max-width:800px){
-       #Name{
-        display: none;
-       }
-       h1{
+     @media (max-width:800px){
+       
+       
+        header nav h1{
         display: none;
        }
 
-       .TodosAnimes{
-        display: flex;
-        flex-direction: column-reverse;
-       }
-       .generos{
-        display: none;
-       }
-    
+
+       .row{
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: repeat(4, 130px);
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        row-gap: 140px;
     }
-
- @media (max-width:300px){
-    .container_text-center{
-        display: grid;
-        grid-template-columns: repeat(3,80px);
-    }
-
- }
+     }
 
