@@ -14,17 +14,17 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img class="logo" src="../images/favicon.jpeg" alt="">
-            <h1>SPACEBOOKS</h1>
-            <div class="buscarLibro">
+        <nav class="conteiner-nav">
+            <img class="conteiner-nav_logo" src="../images/favicon.jpeg" alt="">
+            <h1 class="conteiner-nav_titulo">SPACEBOOKS</h1>
+            <div class="conteiner-nav_buscarLibro">
              <input type="text" id="Name" name="Name" placeholder="Buscar Libro" />
             </div>
-            <div class="botonesInicio">
-                <button class="reg">
+            <div class="conteiner-nav_botonesInicio">
+                <button class="conteiner-nav_botonesInicio-reg">
                     registrarse
                 </button>
-                <button class="acce">
+                <button class="conteiner-nav_botonesInicio-acce">
                     acceder
                 </button>    
              </div>
@@ -32,63 +32,67 @@
     </header>
 
     <main>
-        
-        <p>Estas preparado/a para adentrarte y explorar este magnifico mundo lleno de emociones por descubrir, donde vas a poder entrar en miles de historias desconocidas 
+        <section class="main-sup">
+          <p class="main-sup_p">Estas preparado/a para adentrarte y explorar este magnifico mundo lleno de emociones por descubrir, donde vas a poder entrar en miles de historias desconocidas 
             de todo tipo, y enamorarte de ellas de diferentes formas, no pierdas tiempo y escoge tu historia favorita! </p>
-            <img src="/images/imagenReferencia.jpeg"class="imageRef" alt="img" srcset=""> 
-            <p class="textRef">Comienza con la lectura y encuentra tu historia favorita.</p>        
+            <img src="/images/imagenReferencia.jpeg"class="main-sup_img" alt="img" srcset=""> 
+            <p class="main-sup_pp">Comienza con la lectura y encuentra tu historia favorita.</p>        
+        </section>
         
-       
-            <div class="dropdown">
-                <button id="generos">GENEROS</button>
-                <div class="opcionesGeneros">
-                  <a href="./pages/anime.html" style="text-decoration: none" >anime</a>
-                  <a href="./pages/drama.html"style="text-decoration: none;">drama</a>
-                  <a href="./pages/infantil.html"style="text-decoration: none;">infantil</a>
-                  <a href="./pages/romance.html"style="text-decoration: none;">romance</a>
-                  <a href="./pages/suspenso.html"style="text-decoration: none;">suspenso</a>
-                </div>
+         <div>
+
+         </div> 
+         <section>
+          <div class="main-medio">
+            <button class="main-medio_generos">generos</button>
+            <div class="main-medio_generos_opcionesG">
+              <a href="./pages/anime.html" style="text-decoration: none" >anime</a>
+              <a href="./pages/drama.html"style="text-decoration: none;">drama</a>
+              <a href="./pages/infantil.html"style="text-decoration: none;">infantil</a>
+              <a href="./pages/romance.html"style="text-decoration: none;">romance</a>
+              <a href="./pages/suspenso.html"style="text-decoration: none;">suspenso</a>
+            </div>
+          </div>
+         </section>
+          
+         <section>
+          <div class="container_text-center">
+            <div class="container_text-center_row">
+              <div class="col-3">
+               <img src="./images/1libro.jpeg"style="height: 250; width :200px;" alt="" >
+                <button class="col-3_buttonLibro">leer</button> 
+                <img src="./images/libro2.jpeg " style="height: 250; width : 200px;" alt="">
+                <button class="col-3_buttonLibro">leer</button>
+                <img src="./images/libro3.jpeg"style="height: 250; width : 200px;">
+                <button class="col-3_buttonLibro">leer</button>
+              </div> 
+              <div class="col-3">
+                <img src="./images/libro4.jpeg"style="height: 250; width : 200px;" >
+                <button class="col-3_buttonLibro">leer</button>
+                <img src="./images/libro5.jpeg"style="height: 250; width : 200px;" >
+                <button class="col-3_buttonLibro" >leer</button>
+                <img src="./images/libro6.jpeg" style="height: 250; width : 200px;" alt="libro6">
+                <button class="col-3_buttonLibro">leer</button> 
               </div>
-
-              <div class="container_text-center">
-                <div class="row">
-                  <div class="col-3">
-                   <img src="./images/1libro.jpeg"style="height: 250; width :200px;" alt="" >
-                    <button class="buttonLibro">leer</button> 
-                    <img src="./images/libro2.jpeg " style="height: 250; width : 200px;" alt="">
-                    <button class="buttonLibro">leer</button>
-                    <img src="./images/libro3.jpeg"style="height: 250; width : 200px;">
-                    <button class="buttonLibro">leer</button>
-                  </div> 
-                  <div class="col-3">
-                    <img src="./images/libro4.jpeg"style="height: 250; width : 200px;" >
-                    <button class="buttonLibro">leer</button>
-                    <img src="./images/libro5.jpeg"style="height: 250; width : 200px;" >
-                    <button class="buttonLibro" >leer</button>
-                    <img src="./images/libro6.jpeg" style="height: 250; width : 200px;" alt="libro6">
-                    <button class="buttonLibro">leer</button> 
-                  </div>
-                  <div class="col-3">
-                     <img src="./images/libro7.jpeg" style="height: 250; width : 200px;"alt="">
-                     <button class="buttonLibro">leer</button>
-                     <img src="./images/libro8.jpeg"style="height: 250; width : 200px;"  alt="">
-                     <button class="buttonLibro">leer</button>
-                     <img src="./images/libro9.jpeg"style="height: 250; width : 200px;" alt="">
-                     <button class="buttonLibro">leer</button> 
-                  </div>
-                </div>
+              <div class="col-3">
+                 <img src="./images/libro7.jpeg" style="height: 250; width : 200px;"alt="">
+                 <button class="col-3_buttonLibro">leer</button>
+                 <img src="./images/libro8.jpeg"style="height: 250; width : 200px;"  alt="">
+                 <button class="col-3_buttonLibro">leer</button>
+                 <img src="./images/libro9.jpeg"style="height: 250; width : 200px;" alt="">
+                 <button class="col-3_buttonLibro">leer</button> 
               </div>
-
-
+            </div>
+          </div>
+         </section>
             
     </main>
 
-    <footer>
-            <div class="fotter">
-                <img class="logoFotter" src="./images/favicon.jpeg" alt="">
-                <p>Descarga spacebooks en todos tus dispositivos!</p>
+    <footer class="footer">
+            <div class="fotter-conteiner">
+                <img class="fotter-conteiner_img" src="./images/favicon.jpeg" alt="">
+                <p class="fotter-conteiner_p">Descarga spacebooks en todos tus dispositivos!</p>
             </div>
-
     </footer>
 </body>
 </html>
