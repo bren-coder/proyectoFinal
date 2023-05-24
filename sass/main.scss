@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+header nav{
+
+    background-color: rgb(2, 2, 30) ;
+}
+
+.conteiner-nav{
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+
+
+         &_logo{
+        padding: 10px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 80px;
+        height: 80px; ;
+        border-radius: 90px;
+        opacity: 0.9;
+    }
+         &_titulo{
+        color: aliceblue;
+        font-family: 'Changa One', cursive;
+        display: inline;
+        padding-left: 80px;
+        font-size: 70px;
+        position:absolute ;
+        margin-top: 10px;
+        border-color: solid 2px wheat;
+        letter-spacing: 2pc;
+        text-shadow: solid 2px white;
+    }
+        &_buscarLibro{
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        top: 0px;
+        color: aliceblue;
+        right: 30%;
+        width: 200px;
+
+
+    }
+        &_botonesInicio{
+            display: flex;
+            flex-direction: row;
+            justify-self: left;
+            justify-content: right;
+            margin-left: 85%;
+            position: absolute;
+            margin-top: 2%;
+          
+            &__botonesInicio-reg{
+   
+                font-size: 15px;
+                font-weight: bold;
+                font-family: 'Changa One', cursive;
+                width: 90px ;
+                height: 50px;
+                border-radius: 20%;
+                background-color: rgb(16, 10, 90);
+                border: 2cm indianred;
+               text-align: center;
+               color: antiquewhite;
+              
+            }
+            &__botonesInicio-acce{
+  
+                font-size: 15px;
+                font-weight: bold;
+                font-family: 'Changa One', cursive;
+                width: 70px ;
+                height: 50px;
+                border-radius: 20%;
+                background-color: rgb(16, 10, 90);
+               border: none;
+               text-align: center;
+               color: antiquewhite;
+            
+            
+            }
+     }
+
+}
+header nav #Name{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    position: absolute;
+    width:170px;
+    height: 30px;
+    border-color:none;
+    border-radius: 10%;
+    margin-top: 4%
+  
+}
+
+                           /*  COMIENZA MAIN */
+
+.main-sup{
+
+    &_p{
+        font-family: 'Changa One', cursive;
+    font-size: 20px;
+    margin-top: 70px;
+    color: aliceblue;
+    text-align: center;
+    opacity: 0.9;
+}
+    
+    &_pp{
+     font-size: 30px;
+    text-align: left;
+     margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(172, 172, 192);
+    }
+
+    &_img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    padding-top: 0px;
+    margin: 0;
+
+    }
+
+
+
+
+
+}             
+.main-medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+   position: absolute;
+    color: aliceblue;
+    left: 90%;
+   
+
+    &_generos_opcionesG{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+.col-3{
+    text-align: center;
+    &_buttonLibro{
+        font-size: 15px;
+    font-weight: bold;
+    font-family: 'Changa One', cursive;
+    border-radius: 5px;
+    background-color: rgb(225, 208, 208);
+    color: rgb(16, 17, 17);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+        &:hover{
+            background-color: blanchedalmond;
+        }
+
+    }
+}
+.container_text-center_row{
+
+    display: grid;
+    min-width: 1200px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 130px);
+  column-gap: 170px;
+  justify-content: center;
+  
+}
+.fotter-conteiner{
+    padding: 0%;
+    margin-top: 70%;
+    height: 40px;
+    background-color: #000;
+  
+    &_img{
+        position: absolute;
+        border-top: 60%;
+        width: 40px;
+        height: 40px;
+        border-radius: 90%;
+    }
+
+    &_p{
+        color: aliceblue;
+        position: absolute;
+        margin-left: 40%;
+    }
+    
+
+}
+@media (max-width:690px){
+    .conteiner-nav_titulo{
+        display: none;
+    }
+}

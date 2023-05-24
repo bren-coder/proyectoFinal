@@ -117,10 +117,7 @@ header nav #Name{
 
 
 }
-header nav .botonesInicio{
-    display: inline;
 
- }
 
 
 
@@ -155,40 +152,7 @@ header nav .botonesInicio{
 
 }
 
-main .dropdown{
-        position: absolute;
-        margin-left: 70%;
-        display: block;
-         font-family: 'changa one', cursive;
-        display: inline;
-        color: rgb(181, 126, 55);
-        font-size: 20px;
-       
 
-}
-/*2°SECTION DE MAIN*/
-/* .main-medio{
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-    left: 90%;
-
-}
-
-.main-medio_generos_opcionesG{}
-
-.main-medio_generos_opcionesG a{
-   
-    display: block;
-    color: antiquewhite;
-}
-.main-medio_generos_opcionesG a:hover{
-    text-shadow: solid 2px white;
-    color: blue;
-    border: solid 2px wheat;
-    font-size:16px ;
-    text-align: center;
-} */
 .main-medio{
     display: flex;
     flex-direction: column;
@@ -214,7 +178,7 @@ main .dropdown{
     text-align: center;
     justify-content: center;
     justify-items: center;
-align-items: center;
+    align-items: center;
 }
 .buttonLibro:hover{
     background-color: blanchedalmond;
@@ -259,7 +223,12 @@ align-items: center;
 }
 
 
-
+@media (max-width:690px){
+    .conteiner-nav_titulo{
+        color: aqua;
+        font-size: 12px;
+    }
+}
 
 
 
@@ -273,6 +242,16 @@ align-items: center;
 
 
                   /* COMIENZA propiedades generales de las Paginas externas del index  */
+
+   header nav .logo{
+    padding: 10px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 80px;
+        height: 80px; ;
+        border-radius: 90px;
+        opacity: 0.9;
+   }               
  header nav .volver {
    margin-left: 80%;
    position: absolute;
