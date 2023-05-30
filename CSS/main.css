@@ -1,5 +1,5 @@
 header nav {
-  background-color: rgb(2, 2, 30);
+  background-color: rgb(142, 142, 202);
 }
 
 .conteiner-nav {
@@ -163,9 +163,44 @@ header nav #Name {
   border-radius: 90%;
 }
 .fotter-conteiner_p {
-  color: aliceblue;
+  color: rgb(174, 184, 194);
   position: absolute;
   margin-left: 40%;
+}
+
+@media (max-width: 890px) {
+  body {
+    max-width: 690px;
+  }
+  .conteiner-nav_titulo {
+    display: none;
+  }
+  .conteiner-nav_botonesInicio {
+    display: block;
+  }
+  .main-sup_img {
+    width: 100px;
+    height: 100px;
+  }
+  .main-sup_pp {
+    font-size: 20px;
+  }
+  .container_text-center {
+    display: flex;
+    justify-items: right;
+    justify-content: right;
+    margin-left: 140%;
+  }
+  .container_text-center_row {
+    max-width: 200;
+    margin-top: 12px 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 200px);
+    row-gap: 130px;
+    top: 90px;
+    column-gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
