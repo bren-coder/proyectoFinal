@@ -1,6 +1,6 @@
 header nav{
 
-    background-color: #020207 ;
+    background-color: #04040f ;
 }
 
 .conteiner-nav{
@@ -197,6 +197,34 @@ header nav #Name{
     
 
 }
+.main-medio{
+    &_generos{
+        color: black;
+        font-weight: bold;
+
+        
+    }
+    &_generos_opcionesG{
+        color: aqua;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:900px){
+    .container_text-center_row{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(2);
+    }
+   
+}
+
+
 @media (max-width:890px){
     body{
         max-width: 690px;
